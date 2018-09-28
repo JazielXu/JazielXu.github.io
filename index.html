@@ -9,6 +9,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <![endif]-->
     <title>Welcome to Jaziel Xu's homepage</title>
+    
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- BOOTSTRAP CORE STYLE -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FONT AWESOME ICON STYLE -->
@@ -16,9 +20,53 @@
     <!-- CUSTOM STYLE CSS -->
     <link href="assets/css/style.css" rel="stylesheet" />
 
+<style>
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+
 
 </head>
-<body>
+<body>	
+	<div class="sidenav">
+  <a href="#">Home</a>
+  <a href="http://mssn2.cs.purdue.edu/mmmap">MMMap</a>
+  <a href="/blogs">Blogs</a>
+  <a href="#">Contact</a>
+</div>
+
+<div class="main">
+	
     <div id="header">
         <div class="overlay">
             <div class="container">
@@ -71,6 +119,8 @@
     </div>
     <div class="copyrights">Collect from <a href="http://www.cssmoban.com/"  title="homepage">homepage</a></div>
     <!--END INFO SECTION-->
+
+
     <div class="container">
 
         <div class="row">
@@ -241,6 +291,8 @@ I have a lot of hobbies! Harvesting a  wide range of interests that began from a
     <script src="assets/js/jquery-1.11.1.js"></script>
     <!-- BOOTSTRAP SCRIPTS -->
     <script src="assets/js/bootstrap.js"></script>
+
+
 
 </body>
 </html>
