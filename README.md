@@ -1,55 +1,155 @@
-# A Simple Academic Personal Website Template
-This project provides a simple template for researchers to showcase their publications.
+# The Minimal Light Theme
 
-The main functionality provided by this template is automatic grouping and displaying publications based on different criteria. It frees researchers from tedious web page updating.
+[![LICENSE](https://img.shields.io/github/license/yaoyao-liu/minimal-light?logo=creative-commons&color=EF9421)](https://github.com/yaoyao-liu/minimal-light/blob/main/LICENSE)
+[![gem](https://img.shields.io/gem/v/minimal-light?logo=rubygems&color=E9573F)](https://rubygems.org/gems/minimal-light)
+[![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%203.5-orange.svg?logo=jekyll)](https://jekyllrb.com/)
+[![Build Status](https://github.com/yaoyao-liu/minimal-light/actions/workflows/ci.yaml/badge.svg)](https://github.com/yaoyao-liu/minimal-light/actions/workflows/ci.yaml)
 
+\[[Demo the theme](https://minimal-light.yyliu.net/)\]  \[[简体中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hans.md) | [繁體中文](https://github.com/yaoyao-liu/minimal-light/blob/master/README_zh_Hant.md) | [Deutsche](https://github.com/yaoyao-liu/minimal-light/blob/master/README_de.md)\]
 
-## Add publications
+**Update: The latest version of my homepage is available [here](https://github.com/yaoyao-liu/homepage).**
+ 
+*This is the source code of my homepage. I build this website based on [minimal](https://github.com/orderedlist/minimal).*
+<br>
+*Feel free to use and share the source code anywhere you like.*
 
-index.html is the main file in this template. Ideally, you only need to change index.html and simplest.css to make your web page work. index.html links to JQuery, toggle.js, and mergeSort.js.
+## Features
 
-Add your publications as items in `<div id="publicationdatabase">`. `<div id="publicationdatabase">` serves as the publication database, and it is set as `style="display: none;"`. Here is an example:
-```html
-<div id="publicationdatabase" style="display: none;">
-	<ul>
-            <li class="publication" data-time="20150901" data-venue="ICGP" data-topic="Soccer Games" data-type="Conference Papers">
-               <span class="paper_title">Pro Evolution Soccer in a Nutshell</span>&nbsp;&nbsp;<a href="./.pdf">[PDF]</a>&nbsp;<a href="./.bib">[Bib]</a>
-               <br />		
-               <span class="self">Your Name</span>, Co-author-1, Co-author-2<br />
-               International Conference on Game Playing (ICGP), 2015
-               <br />
-			   <br />
-            </li>
-	</ul>
-</div>
+- Simple and elegant personal homepage theme
+- Jekyll theme, deploy automatically by GitHub pages
+- Basic Search Engine Optimization
+- Mobile friendly
+- Support Markdown 
+- Support dark mode
+
+## Usage
+
+### Using on GitHub 
+
+To use this theme, add the following to your repository's `_config.yml`:
+
+```yaml
+remote_theme: yaoyao-liu/minimal-light
 ```
 
-Your publication `<li>` should have the following attributes: 1) `class="publication"`, toggle.js uses this to find your publications; 2) `data-time="20150901"`, the publication date in the format of YYYYMMDD; 3) `data-venue="ICGP"`, the venue of a publication; 4) `data-topic="Soccer Games"`, the topic of a publication; 5) `data-type="Conference Papers"`, the type of this publication.
+Please note that adding the above line will directly apply all the default settings in this repository to yours.
 
-## Add new attribute to `<li>`
+If you hope to edit any files (e.g., `index.md`), you still need to copy them to your repository.
 
-Feel free to add new attributes to `<li>` as long as you add correspoding links to trigger to sortment based on those attributes. A link looks like this:
-```html
-<a class="toggle_link" href="javascript:toggle('data-mycriterion', true, true)">Sort by mycriterion</a>
+You may also fork this repository (or [use this repository as a template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)) and change the name to `your-username.github.io`.
+
+Then you need to enable the GitHub pages for that repository following the steps [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site#creating-your-site).
+
+#### Using a custom domain on GitHub
+
+Add a `CNAME` DNS record to your domain as follows:
+```
+Host: whatever you want. e.g., "www" 
+Target / Canonical name: your-username.github.io.
+TTL: 10 min
+```
+You may also add an `A` DNS record instead of the `CNAME` record as follows:
+```
+Host: whatever you want. e.g., "www" or "@"
+IP: 185.199.108.153
+    185.199.109.153
+    185.199.110.153
+    185.199.111.153
+TTL: 10 min
 ```
 
+Then, change the contents of the [CNAME](./CNAME) file in this repository to your domain.
 
-## Function `toggle()`
+### Using Locally with Jekyll
 
-`toggle` is the entry point of toggle.js. It takes three parameters: 1) `type`, the attribute you want to sort on; 2) `ordered_list`, a boolean value to decide whether to display ordered list for your publications. The default parameter is `true`; 3) `generate_anchors`, a boolean value to decide whether to display links to anchors for different publication categories. The default parameter is `true`.
+*You need to install [Ruby](https://www.ruby-lang.org/en/) and [Jekyll](https://jekyllrb.com/) fisrt.*
 
-```javacript
-function toggle(type, ordered_list, generate_anchors)
+Clone this repository:
+
+```bash
+git clone https://github.com/yaoyao-liu/minimal-light.git
+cd minimal-light
 ```
+Install and run:
 
-## Change the default way to sort
-
-You can change the default way to sort your publications by changing the parameters of
-
-```javascript
-$(document).ready(toggle('data-time'));	
+```bash
+bundle install
+bundle exec jekyll server
 ```
+View the live page using `localhost`:
+<http://localhost:4000>. You can get the html files in `_site` folder.
 
-## Contact
+## Customizing
 
-Contact me at ziming.zhao at gmail.com
+### Configuration variables
+
+The Minimal Light theme will respect the following variables, if set in your site's `_config.yml`:
+
+  ```yaml
+# Basic Information 
+title: Your Name
+position: Ph.D. Student
+affiliation: Your Affiliation
+email: yourname (at) example.edu
+
+# Search Engine Optimization (SEO)
+# The following information is used to improve the website traffic from search engines, e.g., Google.
+keywords: minimal academic
+description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
+canonical: https://minimal-light.yyliu.net/
+
+# Links 
+# If you don't need one of them, you may delete the corresponding line.
+google_scholar: https://scholar.google.com/
+github_link: https://github.com/yaoyao-liu/minimal-light
+linkedin: https://www.linkedin.com/
+
+# Images (e.g., your profile picture and your website's favicon) 
+# "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
+avatar: ./assets/img/avatar.png
+favicon: ./assets/img/favicon.png
+favicon_dark: ./assets/img/favicon-dark.png
+
+# Google Analytics ID
+# Please remove this if you don't use Google Analytics
+google_analytics: UA-111540567-4
+  ```
+### Editing `index.md`
+
+Create `index.md` and add your personal information (e.g. publications, research).
+
+### Stylesheet
+
+If you'd like to add your own custom styles:
+
+1. Create a file called `/assets/css/style.scss` in your site
+2. Add the following content to the top of the file, exactly as shown:
+
+    ```scss
+    ---
+    ---
+
+    @import "{{ site.theme }}";
+    ```
+3. Add any custom CSS (or Sass, including imports) you'd like immediately after the `@import` line
+
+### Layouts
+
+If you'd like to change the theme's HTML layout:
+
+1. [Copy the original template](https://github.com/yaoyao-liu/minimal-light/blob/master/_layouts/homepage.html) from the theme's repository<br />(*Pro-tip: click "raw" to make copying easier*)
+2. Create a file called `/_layouts/homepage.html` in your site
+3. Paste the default layout content copied in the first step
+4. Customize the layout as you'd like
+
+## License
+
+This work is licensed under a [Creative Commons Zero v1.0 Universal](https://github.com/yaoyao-liu/minimal-light/blob/master/LICENSE) License.
+
+## Acknowledgements
+
+Our project uses the source code from the following repositories:
+
+* [pages-themes/minimal](https://github.com/pages-themes/minimal)
+
+* [orderedlist/minimal](https://github.com/orderedlist/minimal)
