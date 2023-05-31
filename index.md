@@ -47,6 +47,14 @@ I am a Ph.D. student at Queen Mary University of London. I graduated from Peking
   IEEE Vehicular Technology Magazine.
   <br>
   [[Arxiv](https://arxiv.org/abs/2108.06233)] [[IEEE](https://ieeexplore.ieee.org/document/9754364)] <strong><i style="color:#e74d3c">Popular article on IEEE Vehicular Tech. Mag.</i></strong>
+  
+  - **Simultaneously Transmitting and Reflecting (STAR)-RISs: Are They Applicable to Dual-Sided Incidence?**
+  <br>
+  <strong><i style="color:#009900">J. Xu</i></strong>, X. Mu, J.T. Zhou, and Y. Liu
+  <br>
+  IEEE Communications Letters.
+  <br>
+  [[Arxiv](https://arxiv.org/pdf/2209.05317.pdf)] [[IEEE](https://ieeexplore.ieee.org/abstract/document/9935303)]
 
 - **Reconfigurable intelligent surfaces: Principles and opportunities**
   <br>
