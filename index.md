@@ -5,6 +5,7 @@ layout: homepage
 ## About Me
 
 I am a Ph.D. student at Queen Mary University of London. I graduated from Peking University, obtained B.S. degree in Physics and in Computer Science.
+I also love to play the piano. [[See my recent performance of Chopin's Polonaise Fantasy here](https://youtu.be/aOWHBCeNB90)].
 
 ## Research Interests
 
