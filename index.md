@@ -4,7 +4,9 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at Queen Mary University of London. I graduated from Peking University, obtained B.S. degree in Physics and in Computer Science.
+I am a Postdoctoral Research Associate at University of California, Irvine.
+I obtained by Ph.D. at Queen Mary University of London. 
+I graduated from Peking University, obtained B.S. degree in Physics and in Computer Science.
 I also love to play the piano. [[See my recent performance of Chopin's Polonaise Fantasy here](https://youtu.be/aOWHBCeNB90)].
 
 ## Research Interests
@@ -12,6 +14,9 @@ I also love to play the piano. [[See my recent performance of Chopin's Polonaise
 - multiple-input and multiple-output (MIMO), Reconfigurable Intelligent Surfaces (RIS), physical channel modelling, NOMA
 
 ## News
+
+- **[Aug. 2023]** I joined UC-Irvine as a Postdoctoral Researcher. I work with Professor [A. Lee Swindlehurst]([https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4234](https://engineering.uci.edu/users/lee-swindlehurst)) in the area of MIMO wireless communication.
+
 
 - **[Aug. 2022]** Our recent work with Professor Octavia A. Dobre has been featured in the IEEE Xplore homepage and been listed as the Top 1 [Popular Paper in IEEE CL](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4234).
 
