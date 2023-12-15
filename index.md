@@ -22,6 +22,8 @@ I also love to play the piano. [[See my recent performance of Chopin's Polonaise
 
 ## Journal Publications
 
+<img src="./assets/img/NFSensing.jpg" alt="Girl in a jacket" width="500">
+
 - **STAR-RISs: Simultaneous Transmitting and Reflecting Reconfigurable Intelligent Surfaces**
   <br>
   <strong><i style="color:#009900">J. Xu</i></strong>, Y. Liu, X. Mu, and, O. A. Dobre
