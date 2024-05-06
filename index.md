@@ -7,20 +7,24 @@ layout: homepage
 I am a Postdoctoral Research Associate at University of California, Irvine.
 I obtained by Ph.D. at Queen Mary University of London. 
 I graduated from Peking University, obtained B.S. degree in Physics and in Computer Science.
-I also love to play the piano. [[See my recent performance of Chopin's Polonaise Fantasy here](https://youtu.be/aOWHBCeNB90)].
+I also love to play the piano. [See my BiliBili Channel here](https://space.bilibili.com/430062675).
 
 ## Research Interests
 
-- multiple-input and multiple-output (MIMO), Reconfigurable Intelligent Surfaces (RIS), physical channel modelling, NOMA
+- multiple-input and multiple-output (MIMO), Reconfigurable Intelligent Surfaces (RIS), physical channel modelling, signal processing
 
 ## News
 
-- **[Aug. 2023]** I joined UC-Irvine as a Postdoctoral Researcher. I work with Professor [A. Lee Swindlehurst]([https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4234](https://engineering.uci.edu/users/lee-swindlehurst)) in the area of MIMO wireless communication.
+- **[May. 2024]** I received [The IEEE Communications Society Heinrich Hertz Award for Best Communications Letter](https://www.comsoc.org/about/awards/paper-awards/ieee-communications-society-heinrich-hertz-award-best-communications)!
 
+- **[Aug. 2023]** I joined UC-Irvine as a Postdoctoral Researcher. I work with Professor [A. Lee Swindlehurst](https://engineering.uci.edu/users/lee-swindlehurst) in the area of MIMO wireless communication.
 
 - **[Aug. 2022]** Our recent work with Professor Octavia A. Dobre has been featured in the IEEE Xplore homepage and been listed as the Top 1 [Popular Paper in IEEE CL](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=4234).
 
-## Journal Publications
+## Research Projects
+
+- **Physically-Consistent Channel Modeling for MIMO Arrays**
+  
 
 <img src="./assets/img/NFSensing.jpg" alt="Girl in a jacket" width="500">
 
@@ -127,6 +131,6 @@ I also love to play the piano. [[See my recent performance of Chopin's Polonaise
   
 ## Services
 
-- Regular Journal Reviewer: IEEE transactions on communication, transactions on wireless communication,
+- Journal Reviewer: IEEE transactions on communication, transactions on wireless communication,
  journal of selected topics in signal processing, communication letters, wireless communication letters, transactions on green communications and networking.
 - Conference Reviewer: IEEE Globecom, ICC, WCNC.
